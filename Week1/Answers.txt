@@ -1,0 +1,6 @@
+1. Male 577 Female 314
+2. alive 342 all 891 perc 0.383838
+3. first class 216 all 891 perc 24.242424
+4. avg 29.699118 median 28.000000
+5. pearson corr 0.41483769862
+6. Anna

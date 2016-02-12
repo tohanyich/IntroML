@@ -1,0 +1,7 @@
+min distance
+p = 1.678392
+score = 19.602006611021721
+
+max distance
+p = 9.502513
+score = 24.280972612070119
