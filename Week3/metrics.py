@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import sklearn.cross_validation as cross_val
-from sklearn.preprocessing import scale
 import sklearn.metrics as metrics
 
 cls = pd.read_csv('classification.csv')

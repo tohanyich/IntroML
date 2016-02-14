@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import sklearn.cross_validation as cross_val
-from sklearn.preprocessing import scale
 import sklearn.metrics as metrics
 
 def get_res_array(perc_arr, rec_arr):
