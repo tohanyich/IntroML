@@ -1,5 +1,7 @@
 # -*- coding: UTF-8 -*-
 import pandas as pd
+import sklearn.cross_validation as cross_val
+
 features = pd.read_csv('./features.csv', index_col='match_id')
 target = features[u'radiant_win']
 
@@ -15,3 +17,6 @@ for name in col_names:
     if num < str_num:
         print('%d Null elements in column %s') %(str_num - num, name)
         features[name].fillna(value = 0)
+
+#Обучение градиентным бустингом
+kfold = cross_val.KFold(len(features),n_folds=5, shuffle=True
